@@ -1,2 +1,2 @@
 language = "bash"
-run = "node absoluteValue.js"
+run = "python absoluteValue.py"

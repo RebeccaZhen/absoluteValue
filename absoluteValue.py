@@ -1,8 +1,8 @@
 def absoluteValue(input):
-	if input >= 0:
+	if int(input) >= 0:
 		return input
 	else:
-		return 0 - input
+		return 0 - int(input)
 
 print("Enter your integer: ")
 Integer = input()
