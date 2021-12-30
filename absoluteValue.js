@@ -1,4 +1,4 @@
-function absoluteValue(let input) {
+function absoluteValue(input) {
 	if (input >= 0) {
 		return input;
 	} else {
@@ -13,6 +13,6 @@ const readline = require('readline').createInterface({
 });
 
 readline.question('Enter your integer: ', Integer => {
-	console.log ('${absoluteValue(Integer)}');
+	console.log (`${absoluteValue(Integer)}`);
 	readline.close();
 });

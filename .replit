@@ -1,2 +1,2 @@
 language = "bash"
-run = "g++ -o absoluteValue absoluteValue.cpp; ./absoluteValue"
+run = "node absoluteValue.js"
