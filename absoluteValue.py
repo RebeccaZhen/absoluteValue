@@ -5,5 +5,5 @@ def absoluteValue(input):
 		return 0 - input
 
 print("Enter your integer: ")
-x = Integer()
+Integer = input()
 print(absoluteValue(Integer))
